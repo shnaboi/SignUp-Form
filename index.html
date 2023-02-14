@@ -8,7 +8,7 @@
     <title>Fake Sign-up <Form></Form></title>
 </head>
 <body>
-    <div class="body-div">
+    <div class="content">
         <div class="img">
             <div class="img-info">
                 <p>Photo by <a href="https://unsplash.com/fr/@karlpb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karl Paul Baldacchino</a> on <a href="https://unsplash.com/photos/p1dtEefClWY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -24,7 +24,37 @@
                     <p>You <em>know</em> you want to.</p>
             </div>
             <div class="signup-div pad">
-                <p>Put the form here</p>
+                <form action="app.js">
+                    <div class="form">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    </div>
+
+                    <div class="form">
+                        <label for="firstName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="form">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" minlength="9" maxlength="9">
+                    </div>
+
+                    <div class="form">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+
+                    <div class="form">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="text" name="confirmPassword" id="confirmPassword">
+                    </div>
+                </form>
             </div>
             <div class="submit-div pad">
                 <button>Submit</button>
