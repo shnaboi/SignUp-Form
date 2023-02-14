@@ -30,7 +30,26 @@ a {
     color:rgb(139, 178, 190);
 }
 
+.pad {
+    padding-left: 3vw;
+}
+
 .form-div {
     width: 60vw;
     background-color: rgb(139, 178, 190);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.text-div {
+    border: 1px solid red;
+}
+
+.signup-div {
+    border: 1px solid blue;
+}
+
+.submit-div {
+    border: 1px solid red;
 }
