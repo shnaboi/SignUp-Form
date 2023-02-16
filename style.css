@@ -49,6 +49,13 @@ a {
 
 .signup-div {
     border: 1px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .submit-div {
