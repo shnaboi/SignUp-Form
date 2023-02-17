@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: rgb(15, 15, 15);
 }
 
 .content {
@@ -73,7 +74,7 @@ a {
 
 .form-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
     width: 100%;
     padding-bottom: 2%;
@@ -82,7 +83,7 @@ a {
 .input {
     display: flex;
     flex-flow: column wrap;
-    width: 45%;
+    width: 35%;
     padding-right: 4px;
 }
 
@@ -106,17 +107,29 @@ input:focus {
 }
 
 button {
-    color: #946000;
-    border: 6px solid #946000;
+    color: #bd8620;
+    border: 6px solid #bd8620;
     border-radius: 6px;
     background-color: rgb(0, 0, 0, 0.0);
-    padding: 1rem;
+    padding: .6rem 1.8rem;
     font-size: 1rem;
-    margin-bottom: 12px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    transition: .2s;
 }
 
 button:hover {
     color: white;
-    border: 6px solid #946000;
-    background-color: #946000;
+    border: 6px solid #bd8620;
+    background-color: #bd8620;
+    box-shadow: 0 4px 12px 0px rgb(49, 49, 49);
+}
+
+.log-in a {
+    color: #bd8620;
+    font-weight: 500;
+}
+
+.log-in a:hover {
+    color: white;
 }
