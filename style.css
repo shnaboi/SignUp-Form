@@ -105,6 +105,14 @@ input:focus {
     box-shadow: inset 0 0 3px #946000;
 }
 
+input:valid {
+    border: 1px solid #946000;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
 .submit-div {
     padding: 3vw;
     /* border: 1px solid red; */
